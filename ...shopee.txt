@@ -1,0 +1,34 @@
+                           <!-- <div class="home-product__item">
+                              <img src="https://cf.shopee.vn/file/74f6e57ee85290e78c442343187e973f" alt="" class="home-product__item-img">
+                           </div>
+                           <div class="home-product__content">
+                              <span class="home-product__content-heading">
+                                 [Hot] Vỉ Cao nám Whoo giúp mờ các vết thâm sạm nám, tàn nhang dưỡng trắng da whoo radiant white ultimate corrector.
+                              </span>
+                              <div class="home-product__content-price">
+                                 <span class="home-product__content-price-old">
+                                    25.000đ
+                                 </span>
+                                 <span class="home-product__content-price-now">
+                                    12.500đ
+                                 </span>
+                                 <i class="home-product__content-price-shipping fa-solid fa-truck"></i>
+                              </div>
+                              <div class="home-product__content-vote">
+                                 <a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Freepik - Flaticon</a>
+                                 <i class="home-product__content-vote-rating fa-solid fa-star"></i>
+                                 <i class="home-product__content-vote-rating fa-solid fa-star"></i>
+                                 <i class="home-product__content-vote-rating fa-solid fa-star"></i>
+                                 <i class="home-product__content-vote-rating fa-solid fa-star"></i>
+                                 <i class="home-product__content-vote-rating fa-solid fa-star"></i>
+                              </div>
+                              <div class="home-product__content-origin">
+                                 <span class="home-product__content-origin-name">
+                                    Ohui
+                                 </span>
+                                 <span class="home-product__content-origin-country">
+                                    Hàn Quốc
+                                 </span>
+                              </div>
+                           </div> -->
+                           

@@ -1,0 +1,21 @@
+/* Tablet & Mobile */
+@media screen and (max-width: 1023px){
+   :root{}
+   .hide-on-tablet-mobile{
+      display: none;
+   }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+   .hide-on-tablet{
+      display: none;
+   }
+}
+
+/* Mobile */
+@media screen and (max-width: 739px){
+   .hide-on-mobile{
+      display: none;
+   }
+}

@@ -1,0 +1,107 @@
+/* Tablet & Mobile */
+@media screen and (max-width: 1023px){
+   :root{
+      --height-header:70px;
+      --height-navbar:0px;
+   }
+   .hide-on-tablet-mobile{
+      display: none;
+   }
+   .main{
+      margin-top: calc(var(--height-header) + var(--height-softbar));
+   }
+   .header{
+      position: fixed;
+      z-index: 10;
+      top: 0;right: 0;left: 0;
+   }
+   .header__cart {
+      width: 66px;
+      text-align: right;
+      margin-right: 20px;
+  }
+  .header__cart-notice{
+     right: -6px;
+  }
+  .header__cart-list {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   width: 100%;
+   margin-top: 70px;
+   padding: 0 calc((100% - 644px) / 2);
+   }
+   .header__cart-list::-webkit-scrollbar{
+      overflow: hidden;
+   }
+   .header__cart-list::after {
+      display: none;
+   }
+   .header__logo{
+      display: none;
+   }
+   .header__softbar-list{
+      list-style: none;
+      display: flex;
+      height: var(--height-softbar);
+      background-color: #fff;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      z-index: 10;
+   }
+   .header__softbar-item{
+      display: block;
+      flex: 1;
+      line-height: var(--height-softbar);
+      text-align: center;
+      position: relative;
+   }
+
+   .header__softbar-link{
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: var(--text-color);
+   }
+
+   .header__softbar-link::after{
+      content: "";
+      position: absolute;
+      border-right: 1px solid #ccc;
+      height: 60%;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+   }
+
+   .header__softbar-item:last-child .header__softbar-link::after{
+      display: none;
+   }
+
+   .header__softbar-link--active{
+      color: var(--primary-color);
+   }
+
+   .header__softbar-link--updown{
+      display: flex;
+      flex-direction: column;
+   }
+   .header__softbar-link--updown i{
+      line-height: 0.6;
+      color: var(--text-color);
+   }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+   .hide-on-tablet{
+      display: none;
+   }
+}
+
+/* Mobile */
+@media screen and (max-width: 739px){
+   .hide-on-mobile{
+      display: none;
+   }
+}

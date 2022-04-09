@@ -1,0 +1,16 @@
+/* Tablet & Mobile */
+@media screen and (max-width: 1023px){
+   .hide-on-table-mobile{
+      \
+   }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* Mobile */
+@media screen and (max-width: 739px){
+
+}
